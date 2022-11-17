@@ -13,12 +13,12 @@ class Page extends Component
     public $name;
 
     protected $rules = [
-        'name' => 'string|max:190',
+        'name' => 'required|max:190|min:1',
     ];
 
     protected $messages = [
         'name.max' => 'trop long (190 max)',
-
+        'name.required' => '',
     ];
 
     public function newVisiteur()

@@ -11,10 +11,13 @@
                 @enderror
             </div>
         </div>
-        <div class="ms-3">
+        <div class="ms-3 ">
             @foreach ($visiteurs as $visiteur)
-                <h1>{{ $visiteur->name }}</h1>
-                <p>{{ $visiteur->created_at }}</p>
+                <div>
+                    <h1 class="strokeme">{{ $visiteur->name }}</h1>
+                    <p>{{ $visiteur->created_at }}</p>
+                    <hr>
+                </div>
             @endforeach
         </div>
     </div>

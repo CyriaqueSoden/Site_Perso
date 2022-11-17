@@ -22,12 +22,23 @@
 
     }
 
+
+    .strokeme {
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+
+
     body {
         background-image: url("dogu.jpg");
         background-repeat: no-repeat;
         background-color: aquamarine;
         background-size: 100%;
         background-position: center;
+        color: white;
+        background-attachment: fixed;
     }
 
     h1 {
