@@ -23,7 +23,11 @@
     }
 
     body {
-        background-color: aquamarine
+        background-image: url("dogu.jpg");
+        background-repeat: no-repeat;
+        background-color: aquamarine;
+        background-size: 100%;
+        background-position: center;
     }
 
     h1 {

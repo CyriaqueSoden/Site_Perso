@@ -52,8 +52,8 @@ return [
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8', //HACK: passage de utf8mb4 a utf8 pour MySql Wamp Server
-            'collation' => 'utf8_unicode_ci', //les émoji ne foncione pas sur se format
+            'charset' => 'utf8mb4', //HACK: passage de utf8mb4 a utf8 pour MySql Wamp Server
+            'collation' => 'utf8mb4_unicode_ci', //les émoji ne foncione pas sur se format
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
